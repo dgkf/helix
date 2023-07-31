@@ -1,0 +1,70 @@
+inherits = "base16_dark"
+
+"ui.cursor" = { fg = "gray", modifiers = ["reversed"] }
+"ui.cursor.match" = { fg = "yellow", modifiers = ["reversed"] }
+"ui.cursor.primary" = { fg = "black", modifiers = ["reversed"] }
+"ui.gutter" = { }
+"ui.gutter.selected" = { bg = "white" }
+"ui.cursorline.primary" = { bg = "white" }
+"ui.linenr" = { fg = "gray", modifiers = ["dim"] }
+"ui.linenr.selected" = { fg = "black",  modifiers = ["bold"] }
+"ui.menu" = { bg = "light-gray" }
+"ui.menu.selected" = { fg = "white", bg = "gray", modifiers = ["bold"] }
+"ui.menu.scroll" = { fg = "light-blue" }
+"ui.help" = { }
+"ui.text" = { }
+"ui.text.focus" = { }
+"ui.popup" = { bg = "white" }
+"ui.selection" = { bg = "light-gray" }
+"ui.statusline" = { bg = "white" }
+"ui.statusline.inactive" = { fg = "gray", modifiers = ["underlined"] }
+"ui.virtual" = { fg = "gray", bg = "white" }
+"ui.virtual.indent-guide" = { fg = "light-gray", modifiers = ["dim"] }
+"ui.window" = { }
+
+"comment" = { fg = "gray", modifiers = ["italic", "dim"] }
+
+"attribute" = "yellow"
+"constant" = { fg = "yellow", modifiers = ["bold"] }
+"constant.numeric" = { fg = "yellow", modifiers = ["bold"] }
+"constant.character.escape" = "blue"
+"constructor" = "blue"
+"function" = "blue"
+"tag" = { fg = "magenta", modifiers = ["dim"] }
+"type" = "yellow"
+"string"  = "green"
+"special" = "red"
+"variable" = { fg = "black" }
+"variable.parameter" = { fg = "red", modifiers = ["italic", "dim"] }
+"variable.other.member" = "green"
+"keyword" = "magenta"
+"keyword.control.exception" = "red"
+"keyword.directive" = { fg = "yellow", modifiers = ["bold"] }
+"keyword.operator" = { fg = "blue", modifiers = ["bold"] }
+"label" = "red"
+"namespace" = "blue"
+
+"markup.heading" = { fg = "magenta", modifiers = ["bold"] }
+"markup.list" = "red"
+"markup.bold" = { fg = "yellow", modifiers = ["bold"] }
+"markup.italic" = { fg = "magenta", modifiers = ["italic"] }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+"markup.link.url" = { fg = "yellow", modifiers = ["underlined", "bold"] }
+"markup.link.text" = "red"
+"markup.quote" = "cyan"
+"markup.raw" = "blue"
+
+"diff.plus" = "green"
+"diff.delta" = "yellow"
+"diff.minus" = "red"
+
+"diagnostic.hint" = { underline = { color = "cyan", style = "curl" } }
+"diagnostic.info" = { underline = { color = "blue", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "yellow", style = "curl" } }
+"diagnostic.error" = { underline = { color = "red", style = "curl" } }
+
+"hint" = "cyan"
+"info" = "blue"
+"debug" = "light-yellow"
+"warning" = "yellow"
+"error" = "red"

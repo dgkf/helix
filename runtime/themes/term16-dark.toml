@@ -1,0 +1,73 @@
+# Author: dgkf <doug.kelkhoff@gmail.com>
+
+# notes:
+#   - gutter (+ selected line) improvements
+
+"ui.background" = { }
+"ui.cursor" = { fg = "light-gray", modifiers = ["reversed"] }
+"ui.cursor.match" = { fg = "light-yellow", modifiers = ["reversed"] }
+"ui.cursor.primary" = { fg = "light-gray", modifiers = ["reversed"] }
+"ui.cursorline.primary" = { bg = "black" }
+"ui.gutter" = { }
+"ui.gutter.selected" = { bg = "black" }
+"ui.help" = { fg = "white", bg = "black" }
+"ui.linenr" = { fg = "light-gray", modifiers = ["dim"] }
+"ui.linenr.selected" = { fg = "white", bg = "black" }
+"ui.menu" = { fg = "light-gray", bg = "gray" }
+"ui.menu.selected" = { modifiers = ["reversed"] }
+"ui.menu.scroll" = { fg = "light-blue" }
+"ui.popup" = { bg = "black" }
+"ui.selection" = { bg = "gray" }
+"ui.statusline" = { fg = "light-gray", bg = "black" }
+"ui.statusline.inactive" = { fg = "gray", modifiers = ["underlined"] }
+"ui.virtual" = { fg = "light-gray", bg = "black" }
+"ui.virtual.indent-guide" = { fg = "gray", modifiers = ["dim"] }
+"ui.virtual.whitespace" = {}
+"ui.window" = { bg = "black" }
+
+"comment" = { fg = "light-gray", modifiers = ["italic", "dim"] }
+
+"attribute" = "yellow"
+"constant" = { fg = "yellow", modifiers = ["bold", "dim"] }
+"constant.numeric" = "yellow"
+"constant.character.escape" = "light-cyan"
+"constructor" = "light-blue"
+"function" = "light-blue"
+"tag" = { fg = "light-magenta", modifiers = ["dim"] }
+"type" = "light-yellow"
+"string"  = "light-green"
+"special" = "light-red"
+"variable" = "white"
+"variable.parameter" = { fg = "light-yellow", modifiers = ["italic"] }
+"variable.other.member" = "light-green"
+"keyword" = "light-magenta"
+"keyword.control.exception" = "light-red"
+"keyword.directive" = { fg = "light-yellow", modifiers = ["bold"] }
+"keyword.operator" = { fg = "light-blue", modifiers = ["bold"] }
+"label" = "light-red"
+"namespace" = "blue"
+
+"markup.heading" = "light-blue"
+"markup.list" = "light-red"
+"markup.bold" = { fg = "light-yellow", modifiers = ["bold"] }
+"markup.italic" = { fg = "light-magenta", modifiers = ["italic"] }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+"markup.link.url" = { fg = "yellow", modifiers = ["underlined"] }
+"markup.link.text" = "light-red"
+"markup.quote" = "light-cyan"
+"markup.raw" = "light-green"
+
+"diff.plus" = "light-green"
+"diff.delta" = "light-yellow"
+"diff.minus" = "light-red"
+
+"diagnostic.hint" = { underline = { color = "gray", style = "curl" } }
+"diagnostic.info" = { underline = { color = "light-cyan", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "light-yellow", style = "curl" } }
+"diagnostic.error" = { underline = { color = "light-red", style = "curl" } }
+
+"info" = "light-cyan"
+"hint" = "gray"
+"debug" = "gray"
+"warning" = "yellow"
+"error" = "light-red"
