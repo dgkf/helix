@@ -1,11 +1,19 @@
+# Author: dgkf <doug.kelkhoff@gmail.com>
+# Modified from base16_terminal, Author: NNB <nnbnh@protonmail.com>
+
 inherits = "base16_dark"
 
+"ui.background.separator" = "light-gray"
 "ui.cursor" = { fg = "gray", modifiers = ["reversed"] }
 "ui.cursor.match" = { fg = "yellow", modifiers = ["reversed"] }
 "ui.cursor.primary" = { fg = "black", modifiers = ["reversed"] }
+"ui.cursor.secondary" = { fg = "gray", modifiers = ["reversed"] }
+"ui.cursorline.primary" = { bg = "white" }
+"ui.cursorline.secondary" = { bg = "white" }
+"ui.cursorcolumn.primary" = { bg = "white" }
+"ui.cursorcolumn.secondary" = { bg = "white" }
 "ui.gutter" = { }
 "ui.gutter.selected" = { bg = "white" }
-"ui.cursorline.primary" = { bg = "white" }
 "ui.linenr" = { fg = "gray", modifiers = ["dim"] }
 "ui.linenr.selected" = { fg = "black",  modifiers = ["bold"] }
 "ui.menu" = { bg = "light-gray" }
@@ -18,9 +26,13 @@ inherits = "base16_dark"
 "ui.selection" = { bg = "light-gray" }
 "ui.statusline" = { bg = "white" }
 "ui.statusline.inactive" = { fg = "gray", modifiers = ["underlined"] }
-"ui.virtual" = { fg = "gray", bg = "white" }
+"ui.statusline.insert" = { fg = "white", bg = "blue" }
+"ui.statusline.select" = { fg = "white", bg = "magenta" }
+"ui.virtual" = { fg = "light-gray" }
 "ui.virtual.indent-guide" = { fg = "light-gray", modifiers = ["dim"] }
-"ui.window" = { }
+"ui.virtual.ruler" = { bg = "white" }
+"ui.virtual.wrap" = { fg = "light-gray" }
+"ui.window" = { fg = "gray", modifiers = ["dim"] }
 
 "comment" = { fg = "gray", modifiers = ["italic", "dim"] }
 
@@ -44,13 +56,13 @@ inherits = "base16_dark"
 "label" = "red"
 "namespace" = "blue"
 
-"markup.heading" = { fg = "magenta", modifiers = ["bold"] }
+"markup.heading" = { fg = "blue", modifiers = ["bold"] }
 "markup.list" = "red"
-"markup.bold" = { fg = "yellow", modifiers = ["bold"] }
-"markup.italic" = { fg = "magenta", modifiers = ["italic"] }
+"markup.bold" = { fg = "cyan", modifiers = ["bold"] }
+"markup.italic" = { fg = "blue", modifiers = ["italic"] }
 "markup.strikethrough" = { modifiers = ["crossed_out"] }
-"markup.link.url" = { fg = "yellow", modifiers = ["underlined", "bold"] }
-"markup.link.text" = "red"
+"markup.link.url" = { fg = "magenta", modifiers = ["dim"] }
+"markup.link.text" = { fg = "magenta", modifiers = ["bold"] }
 "markup.quote" = "cyan"
 "markup.raw" = "blue"
 
