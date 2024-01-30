@@ -1,7 +1,4 @@
-# Author: dgkf <doug.kelkhoff@gmail.com>
-
-# notes:
-#   - gutter (+ selected line) improvements
+# Author: dgkf
 
 "ui.background" = { }
 "ui.background.separator" = { fg = "red" }
@@ -23,9 +20,12 @@
 "ui.statusline" = { fg = "light-gray", bg = "gray" }
 "ui.statusline.inactive" = { bg = "black" }
 "ui.virtual" = { bg = "black" }
-"ui.virtual.indent-guide" = { fg = "gray", modifiers = ["dim"] }
+"ui.virtual.indent-guide" = { fg = "gray" }
 "ui.virtual.whitespace" = {}
 "ui.virtual.wrap" = { fg = "gray" }
+"ui.virtual.inlay-hint" = { fg = "light-gray", modifiers = ["dim", "italic"] }
+"ui.virtual.inlay-hint.parameter" = { fg = "yellow", modifiers = ["dim", "italic"] }
+"ui.virtual.inlay-hint.type" = { fg = "blue", modifiers = ["dim", "italic"] }
 "ui.window" = { fg = "gray", modifiers = ["dim"] }
 
 "comment" = { fg = "light-gray", modifiers = ["italic", "dim"] }
@@ -36,8 +36,12 @@
 "constant.character.escape" = "light-cyan"
 "constructor" = "light-blue"
 "function" = "light-blue"
+"function.macro" = "light-red"
+"function.builtin" = { fg = "light-blue", modifiers = ["bold"] }
 "tag" = { fg = "light-magenta", modifiers = ["dim"] }
-"type" = "cyan"
+"type" = "blue"
+"type.builtin" = { fg = "blue", modifiers = ["bold"] }
+"type.enum.variant" = { fg = "light-magenta", modifiers = ["dim"] }
 "string"  = "light-green"
 "special" = "light-red"
 "variable" = "white"
@@ -48,7 +52,7 @@
 "keyword.directive" = { fg = "light-yellow", modifiers = ["bold"] }
 "keyword.operator" = { fg = "light-blue", modifiers = ["bold"] }
 "label" = "light-green"
-"namespace" = "blue"
+"namespace" = { fg = "blue", modifiers = ["dim"] }
 
 "markup.heading" = "light-blue"
 "markup.list" = "light-red"
@@ -70,7 +74,7 @@
 "diagnostic.error" = { underline = { color = "light-red", style = "curl" } }
 
 "info" = "light-cyan"
-"hint" = "gray"
-"debug" = "gray"
+"hint" = { fg = "light-gray", modifiers = ["dim"] }
+"debug" = "white"
 "warning" = "yellow"
 "error" = "light-red"
